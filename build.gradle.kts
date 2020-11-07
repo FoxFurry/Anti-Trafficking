@@ -14,6 +14,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test-junit"))
+    implementation("com.google.cloud:google-cloud-vision:1.100.6")
+    implementation("com.google.cloud:google-cloud-language:1.101.5")
+    implementation("com.google.cloud:google-cloud-translate:1.95.3")
 }
 
 tasks.test {
